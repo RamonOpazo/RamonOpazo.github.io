@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+    font-size: 18px;
+}
+
+body h1 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+ p, li {
+    font-family: 'Old Standard TT', serif !important;
+}
+
+h2, h3, h4, h5, h6, .ui.header, .headerFont, .forest-link {
+    font-family: 'IBM Plex Sans Condensed', sans-serif !important;
+}
+
+body code, pre, tt, .monoFont {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.85rem !important;
+}
+
+p, li {
+    line-height: 1.5 !important;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+body div.zettel-view .zettel-content h1 {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+body div.zettel-view .zettel-content h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+body div.zettel-view .zettel-content h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ol, ul {
+    margin-top: 0;
+    padding-left: 1.5rem;
+}
+
+li {
+    padding-left: 0.5rem;
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+}
+
+.z-index li {
+    margin-bottom: 0.25rem;
+    line-height: 1.25;
+}
+
+img {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #e3e3e3;
+}
+
+pre[class*=language-] {
+    margin: 1.5rem 0;
+}
+
+input[type=checkbox] {
+    margin-right: 1rem !important;
+    filter: invert(100%) hue-rotate(180deg) brightness(4);
+}
+
+.ui.table {
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid #000;
+}
+
+.ui.table>thead>tr>th {
+    background: transparent;
+    border-bottom: 3px solid #000;
+}
+
+.ui.table>tbody>tr>td, .ui.table>tr>td {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.ui.text.container {
+    max-width: 50ch;
+}
+
+.ui.segment {
+    padding: 2rem;
+}
+
+.language-mermaid {
+    display: block;
+    text-align: center !important;
+    background-color: transparent !important;
+}
+
+#zettel-uptree ul li {
+    margin: 0 !important;
+}
+
+#zettel-uptree ul li a {
+    font-size: 0.85rem !important;
+}
+
+.zettel-tag {
+    margin: 0 !important;
+    margin-right: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.ui.table {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+    margin: 2rem 0;
+}
+
+.date {
+    margin-top: 5rem;
+    font-family: "Playfair Display";
+    font-weight: 700;
+}
+
+code[class*=language-], pre[class*=language-] {
+    -font-family: "IBM Plex Sans Condensed", sans-serif !important;
+    text-shadow: none;
+}
